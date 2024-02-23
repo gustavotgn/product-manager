@@ -1,0 +1,27 @@
+
+
+POST {{HostAddress}}/api/v1/product
+Content-Type: application/json
+
+{
+  "description": "string",
+  "manufacturingDate": "2024-02-21T04:41:04.368Z",
+  "expirationDate": "2024-02-25T04:41:04.368Z",
+  "supplierId": 1
+}
+
+###
+
+GET {{Product.Api_HostAddress}}/api/v1/supplier
+
+###
+
+POST {{Product.Api_HostAddress}}/api/v1/supplier
+Content-Type: application/json
+
+{
+  "nationalRegistration": "string",
+  "description": "string"
+}
+
+###
